@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background: #141B22;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* NAVBAR SECTION */
+nav{
+    justify-content: space-between;
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+header {
+    background: #040B11;
+}
+
+nav ul li {
+    display: inline-block;
+    justify-content: center;
+    padding: 10px;
+} 
+
+nav ul {
+    text-align: center;
+}
+
+
+ul li a{
+   color: #fff;
+   font-size: 1rem;
+   text-transform: uppercase;
+   transition: all .3s;
+}
+
+nav ul li a:hover{
+    color: #21E786;
+}
+
+/* LOGO SECTION */
+nav .logo{
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* padding: 2px; */
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    padding-right: 10px;
+}
+
+/* BTN SECTION */
+.btn-sec{
+    display: flex;
+}
+
+/* .btn-sec a{
+    padding-right: 5px;
+} */
+
+.btn-c{
+    width: 20px;
+    background: #141B22;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.btn-icon {
+    color: #fff;
+    background: #141B22;
+    padding: 1% 3%;
+    border-radius: 4px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-right: 10px;
+    display: flex;
+}
+
+.btn-icon i{
+    padding-right: 5px;
+}
+
+.btn-icon-green{
+    color: #000;
+    background: #21E786;
+    padding: 1% 3%;
+    border-radius: 4px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-right: 10px;
+    display: flex; 
+}
+
+.btn-icon-green i{
+    padding-right: 5px;
+}
+
+/* HOME PAGE SECTION */
+
+.homePage{
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, .1), rgba(0, 0, 0, 0.2)),url('../img/IMG.jpg');
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homePageText{
+    padding-bottom: 2rem;
+    background:  linear-gradient(to bottom, rgba(0, 0, 0, .1), rgba(0, 0, 0, 0.1));
+}
+
+.homePageText h1, p{
+    color: #fff;
+}
+
+.homePageText p{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.homePageText h1{
+    padding-top: 26rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.homePageButton{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.homePageButton .btn{
+    background: #21E786;
+    padding: 10px 20px;
+    color: #040B11;
+    text-transform: uppercase;
+    margin-right: 1rem;
+    transition: all .3s;
+}
+
+.homePageButton .btn:hover {
+    background: transparent;
+    border: 1px solid #21E786;
+    color: #fff;
+}
+
+.homePageButton .btn-b{
+    border: 1px solid #21E786;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 1rem;
+    transition: all .3s;
+}
+
+.homePageButton .btn-b:hover{
+    background: #21E786;
+    color: #040B11;
+}
+
+/* HOW TO NFTALIEN WORK SECTION */
+
+.howToWorkPage {
+    padding-top: 10rem;
+    margin-bottom: 3rem;
+}
+
+.howToWorkPage span{
+    color: #21E786;
+}
+
+.howToWorkPage h1{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 2rem;
+}
+
+.howToWorkCardTop img{
+    width: 80px;
+    height: 80px;
+}
+
+.howToWorkCard{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.innerCard{
+    background: #040B11;
+    align-items: center;
+    text-align: center;
+    border-radius: 2px;
+    padding: 20px 0;
+    cursor: pointer;
+    box-shadow: 16px 14px 20px #0000008c;
+    transition: all .3s;
+}
+
+.innerCard:hover{
+    /* border: 1px solid #21E786; */
+    transform: scale(1.2);
+    border-radius: 10px;
+}
+
+.howToWorkCardButtom h2{
+    color: #21E786;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.howToWorkCardButtom p {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* HOT COLLECTION SECTION */
+
+.hotCollection{
+    margin-bottom: 2rem;
+}
+
+.hotCollection h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.hotOneCard1{
+    background: #040B11;
+    padding: 15px 20px;
+    box-shadow: 2px 2px 2px #21E786;
+    transition: all 3.s;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.hotOneCardTop img{
+    width: 100%;
+}
+
+.hotCard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.hotOneCardButtom h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding-top: 8px;
+}
+
+.hotOneCard1:hover{
+    transform: scale(.9);
+    /* box-shadow: 2px 2px 2px #21E786; */
+}
+
+/* THE STORY PAGE SECTION */
+.storySection {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.storySectionLeft h1{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.storySectionLeft p{
+    margin-bottom: 1rem;
+    width: 90%;
+}
+
+.storySectionRight{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    text-align: center;
+}
+
+.storySectionRightCard{
+    background: #040B11;
+    padding: 40px 25px; 
+}
+
+.storySectionRightCard p{
+    color: #C2C3C5;
+}
+
+.storySectionRightCard h1{
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.storyNumContent{
+    display: flex;
+    gap: 2rem;
+}
+
+.storyNum{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.storyNum1 h5{
+    color: #C2C3C5;
+    padding-bottom: 7px;
+}
+
+.storyNum1 p {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.storySectionLeft div .btn-story{
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #21E786;
+    padding: 2% 3%;
+    transition: all .3s;
+}
+
+.storySectionLeft div .btn-story:hover{
+    background: #21E786;
+    color: #141B22;;
+}
+
+/* BINABOX PARTNER SECTION */
+
+.binabox{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 4rem;
+}
+
+.binCard img {
+    width: 130px;
+    /* height: 100px; */
+    background: #040B11;
+}
+
+
+.binaboxSection h1{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* FOOTER SECTION */
+footer{
+    padding: 1rem;
+    text-align: center;
+    /* background: #000d1b; */
+}
+    
+.binaboxSection h1 span{
+    color: #21E786;
+}
+

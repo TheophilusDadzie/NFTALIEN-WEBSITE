@@ -1,0 +1,143 @@
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    } 
+
+    
+}
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 97%;
+        margin: 0 auto;
+    }
+
+    nav{
+        display: none;
+    }
+    
+
+    /* HOME PAGE TEXT SECTION */
+    .homePageText h1{
+        padding-top: 20rem;
+    }
+
+    .homePageText{
+        padding-bottom: 2rem;
+        background:  linear-gradient(to bottom, rgba(0, 0, 0, .1), rgba(0, 0, 0, 0.1));
+        /* background: none; */
+        /* background-position: center; */
+    }
+
+    /* HOW TO NFTALIEN WORK SECTION */
+
+    .howToWorkPage {
+        /* padding-top: 10rem; */
+        margin-bottom: 4rem;
+    }
+
+    .howToWorkCard{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* HOT COLLECTION SECTION */
+
+    .hotCard {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .hotOneCardTop img{
+        width: 100%;
+    }
+
+    .hotCollection{
+        margin-bottom: 3rem;
+    }
+
+    /* THE STORY PAGE SECTION */
+    
+    .storySectionRight{
+        gap: none;
+    }
+
+    .storySectionRightCard{
+        padding: 30px 5px; 
+    }
+
+    .storySection {
+        margin-bottom: 4rem;
+        gap: none;
+    }
+
+    /* BINABOX PARTNER SECTION */
+    
+    .binabox{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin-bottom: 4rem;
+        gap: 1rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .homePageText h1{
+        padding-top: 23rem;
+    }
+
+    .howToWorkPage {
+        padding-top: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    .hotCollection{
+        margin-bottom: 2rem;
+    }
+
+    .storySection{
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .homePageText h1{
+        padding-top: 23rem;
+    }
+
+    .howToWorkPage {
+        padding-top: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    .hotCollection{
+        margin-bottom: 2rem;
+    }
+
+    .storySection{
+        margin-bottom: 2rem;
+    }
+}
